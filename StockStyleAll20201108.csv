@@ -1,0 +1,15 @@
+ticker,name,class,sv,sb,sg,mv,mb,mg,lv,lb,lg,Unknown ,Unavailable 
+DFEOX,DFA US CORE EQ 1 I,US,"$5,735 ","$6,457 ","$4,077 ","$10,040 ","$10,305 ","$9,115 ","$30,106 ","$28,384 ","$22,383 ",$0 ,$0 
+DFEVX,DFA EMERG MKTS VAL I,EM,"$3,592 ",$903 ,$178 ,"$6,111 ","$1,747 ",$371 ,"$16,834 ","$6,581 ",$84 ,$0 ,$0 
+DFFVX,DFA US TARGET VAL I,US,"$28,858 ","$23,705 ","$8,588 ","$12,946 ","$5,825 ",$883 ,$219 ,$0 ,$0 ,$0 ,$0 
+DFGEX,DFA GLOB REAL ESTATE,GL60,"$1,255 ",$880 ,$269 ,"$3,016 ","$3,276 ",$932 ,"$1,202 ","$1,208 ","$2,879 ",$0 ,$0 
+DFISX,DFA INTL SMALL CO I,ID,"$31,918 ","$24,765 ","$22,582 ","$11,100 ","$17,118 ","$15,231 ",$86 ,$160 ,$358 ,$0 ,$0 
+DFIVX,DFA INTL VALUE I,ID,$141 ,$26 ,$11 ,"$6,734 ","$2,348 ",$659 ,"$19,748 ","$6,328 ","$1,205 ",$0 ,$0 
+DGS,WisdomTree Emerging Markets SmCp Div ETF,EM,"$7,355 ","$2,379 ",$836 ,"$10,635 ","$4,495 ","$2,090 ",$253 ,$6 ,$11 ,$0 ,$0 
+VWILX,Vanguard International Growth Adm,ID,$0 ,$87 ,$0 ,$806 ,"$1,261 ","$4,540 ","$5,364 ","$12,521 ","$37,862 ",$0 ,$0 
+OZOB,GLOBAL RE STOCK IDX,GL65,$0 ,$0 ,$0 ,$0 ,$0 ,$0 ,$0 ,$0 ,$0 ,$0 ,"$15,278 "
+#,,,,,,,,,,,,,
+,,Subtotal:,"$78,854 ","$59,202 ","$36,541 ","$61,388 ","$46,375 ","$33,821 ","$73,812 ","$55,188 ","$64,782 ",$0 ,"$15,278 "
+,,,,,,,,,,,,,
+As of date: 11/08/2020,,,,,,,,,,,,,
+Symbol ,Description ,Account ,Small_value ,Small_blend ,Small_growth ,Medium_value ,Medium_blend ,Medium_growth ,Large_value ,Large_blend ,Large_growth ,Unknown ,Unavailable 
