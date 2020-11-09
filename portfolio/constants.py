@@ -1,0 +1,1 @@
+box_titles = ['sv', 'sb', 'sg', 'mv', 'mb', 'mg', 'lv', 'lb', 'lg']
