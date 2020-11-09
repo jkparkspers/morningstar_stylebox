@@ -9,8 +9,8 @@ class Portfolio(dict):
         super().__init__()
 
     """
-    Create a new sub-portfolio based on a given predicate.  The existing
-    portfolio is unchanged.
+    Create a new sub-raw_amounts based on a given predicate.  The existing
+    raw_amounts is unchanged.
     """
 
     def sub_port(self, predicate):

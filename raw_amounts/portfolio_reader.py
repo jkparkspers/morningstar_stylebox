@@ -1,7 +1,7 @@
 import csv
 from enum import Enum
 
-from portfolio.holding import Holding
+from raw_amounts.holding import Holding
 
 csv_line_format = ''
 

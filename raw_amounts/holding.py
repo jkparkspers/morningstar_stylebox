@@ -1,7 +1,7 @@
-from portfolio.constants import box_titles
+from raw_amounts.constants import box_titles
 
 """
-A single holding in a portfolio.  A single holding consists of
+A single holding in a raw_amounts.  A single holding consists of
 a ticker
 a fund name
 a fund class (US, ID, EM, GL60 for a global fund that is 60% US, and GL65)
@@ -19,20 +19,16 @@ class Holding(dict):
             self[k] = v
 
     """
-    This holding's total value
-    """
-
-    def total(self):
-        return self.total_filtered(lambda k: True)
-
-    """
-    The total value of some boxes of the holding.  The fields that pass the
+     The total value of some boxes of the holding.  The fields that pass the
     predicate function are totaled, others are ignored.
+    
+    The default totals all of the boxes.
     """
 
-    def total_filtered(self, predicate):
+    def total(self, predicate=lambda k: True):
         tot = 0
         for k in box_titles:
             if predicate(k):
                 tot += int(self[k])
         return tot
+
