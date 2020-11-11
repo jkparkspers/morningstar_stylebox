@@ -3,7 +3,7 @@ A Portfolio is a collection of holdings.
 """
 
 
-class Portfolio(dict):
+class Portfolio(list):
 
     def __init__(self):
         super().__init__()
