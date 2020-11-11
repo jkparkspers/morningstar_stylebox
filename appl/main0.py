@@ -2,7 +2,7 @@ from appl.utils import csv_to_port, port_to_str, port_to_csv
 
 
 def main():
-    fn = "../StockStyleAll20201111.csv"
+    fn = "../StockStyleAll20201111b.csv"
     port = csv_to_port(fn)
     disp_a_port(port)
     port_to_csv(port, "Total, $" + str(port.total()), '../total.csv')
@@ -28,6 +28,14 @@ def main():
     print('\nEM')
     disp_a_port(em)
     port_to_csv(em, "EM,$" + str(em_tot) + ",pc of total:," + str(em_percent), '../em.csv')
+
+    gl = port.sub_port(lambda r: r['class'] == 'GL')
+    gl_tot = gl.total()
+    gl_percent = gl_tot / tot_port
+    print('\nGL')
+    disp_a_port(gl)
+    port_to_csv(em, "GL,$" + str(gl_tot) + ",pc of total:," + str(gl_percent), '../gl.csv')
+
 
 
 def disp_a_port(port):
