@@ -10,8 +10,8 @@ class Portfolio(list):
         super().__init__()
 
     """
-    Create a new sub-raw_amounts based on a given predicate.  The existing
-    raw_amounts is unchanged.
+    Create and return a new sub-portfolio based on a given predicate.  The existing
+    portfolio is unchanged.
     """
 
     def sub_port(self, predicate):
@@ -22,7 +22,10 @@ class Portfolio(list):
         return new_port
 
     """
-    Run through all holdings and total them according to the predicate
+    Run through all holdings and total them according to the predicate, which is applied 
+    to each Holding's total calculation
+    
+    The default predicate totals everything
     """
 
     def total(self, predicate=lambda p: True):
@@ -33,6 +36,8 @@ class Portfolio(list):
 
     """
     Figure out the ratio of the portfolio total the selected boxes represent and return it as a dictionary
+    
+    The default predicate calculates the ratio for all boxes
     """
 
     def ratio(self, predicate=lambda b: True):
