@@ -1,7 +1,9 @@
 import csv
 from enum import Enum
 
+from raw_amounts.constants import box_titles
 from raw_amounts.holding import Holding
+from raw_amounts.portfolio import Portfolio
 
 csv_line_format = ''
 
@@ -13,7 +15,7 @@ def make_a_holding(row):
 def read_csv(filename):
     row_type = Enum('row_type', 'port, ignore')
     this_row = row_type.port
-    port = []
+    port = Portfolio()
     with open(filename) as fil:
         csv_reader = csv.DictReader(fil)
         titles = csv_reader.fieldnames
@@ -27,6 +29,10 @@ def read_csv(filename):
                 port.append(holding)
     for r in port:
         print('contains: ', r.total(), ": ", r)
+
+    for box in box_titles:
+        print(box, ": ", port.ratio(lambda b: b==box))
+    print(port.ratio())
 
 
 
