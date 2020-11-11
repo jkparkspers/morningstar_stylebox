@@ -1,4 +1,4 @@
-from raw_amounts.holding import Holding
+from security_coll.holding import Holding
 from test.unit.csv_holdings import hold0, hold1, hold2
 
 

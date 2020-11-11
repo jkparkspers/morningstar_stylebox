@@ -31,4 +31,3 @@ class Holding(dict):
             if predicate(k):
                 tot += int(self[k])
         return tot
-
