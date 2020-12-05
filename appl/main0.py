@@ -1,5 +1,6 @@
 from appl.utils import csv_to_port, port_to_str, port_to_csv
 
+funds = ['DFEOX', 'DFFVX', 'DFISX', 'DFIVX', 'DFEVX']
 
 def main():
     fn = "../StockStyleAll20201111b.csv"
@@ -35,6 +36,13 @@ def main():
     print('\nGL')
     disp_a_port(gl)
     port_to_csv(em, "GL,$" + str(gl_tot) + ",pc of total:," + str(gl_percent), '../gl.csv')
+
+    for t in funds:
+        sf = port.sub_port(lambda r: r['ticker'] == t)
+        sf_tot = sf.total()
+        sf_percent = sf_tot / tot_port
+        print('\n\n', t)
+        disp_a_port(sf)
 
 
 

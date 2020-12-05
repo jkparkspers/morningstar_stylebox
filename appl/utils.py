@@ -39,7 +39,7 @@ def port_to_str(port):
         if box == '\n':
             ret_str += '\n'
         else:
-            ret_str += str(ratios[box]) + ','
+            ret_str += str(ratios[box]) + ',  '
     ret_str += '\n'
     return ret_str
 
