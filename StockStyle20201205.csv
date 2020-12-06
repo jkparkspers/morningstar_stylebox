@@ -1,0 +1,15 @@
+ticker,name,class,sv,sb,sg,mv,mb,mg,lv,lb,lg,Unknown ,Unavailable 
+DFEOX,DFA US CORE EQ 1 I,US,"$6,195","$6,975","$4,404","$10,845","$11,132","$9,847","$32,522","$30,662","$24,179",$0,$0
+DFEVX,DFA EMERG MKTS VAL I,EM,"$3,971",$998,$197,"$6,755","$1,931",$410,"$18,607","$7,274",$93,$0,$0
+DFFVX,DFA US TARGET VAL I,US,"$34,540","$28,373","$10,279","$15,496","$6,972","$1,057",$262,$0,$0,$0,$0
+DFGEX,DFA GLOB REAL ESTATE,GL60,"$1,360",$954,$291,"$3,271","$3,552","$1,011","$1,304","$1,310","$3,122",$0,$0
+DFISX,DFA INTL SMALL CO I,ID,"$35,346","$27,425","$25,007","$12,292","$18,957","$16,867",$96,$178,$396,$0,$0
+DFIVX,DFA INTL VALUE I,ID,$165,$30,$13,"$7,867","$2,743",$769,"$23,071","$7,393","$1,408",$0,$0
+DGS,WisdomTree Emerging Markets SmCp Div ETF,EM,"$7,737","$2,503",$880,"$11,188","$4,729","$2,199",$266,$6,$12,$0,$0
+VIOV,Vanguard S&P Small-Cap 600 Value ETF,US,"$2,959","$3,020",$786,$16,$85,$0,$0,$0,$0,$0,$0
+VWILX,Vanguard International Growth Adm,ID,$0,$0,$82,$844,$993,"$4,524","$5,545","$17,247","$38,808",$0,$0
+OZOB,GLOBAL RE STOCK IDX,GL65,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,"$16,700"
+#,,,,,,,,,,,,,
+,,Subtotal:,"$92,273","$70,278","$41,939","$68,574","$51,094","$36,684","$81,673","$64,070","$68,018",$0,"$16,700"
+As of date: 12/05/2020,,,,,,,,,,,,,
+Symbol ,Description ,Account ,Small_value ,Small_blend ,Small_growth ,Medium_value ,Medium_blend ,Medium_growth ,Large_value ,Large_blend ,Large_growth ,Unknown ,Unavailable 

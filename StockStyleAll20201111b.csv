@@ -1,0 +1,15 @@
+Symbol ,Description ,Account ,Small_value ,Small_blend ,Small_growth ,Medium_value ,Medium_blend ,Medium_growth ,Large_value ,Large_blend ,Large_growth ,Unknown ,Unavailable 
+DFEOX,DFA US CORE EQ 1 I,US,"$5,858 ","$6,595 ","$4,164 ","$10,255 ","$10,527 ","$9,311 ","$30,752 ","$28,993 ","$22,863 ","$129,318 ",$0 
+DFEVX,DFA EMERG MKTS VAL I,EM,"$3,705 ",$931 ,$184 ,"$6,303 ","$1,802 ",$383 ,"$17,363 ","$6,787 ",$86 ,"$37,544 ",$0 
+DFFVX,DFA US TARGET VAL I,US,"$31,462 ","$25,845 ","$9,363 ","$14,115 ","$6,351 ",$963 ,$238 ,$0 ,$0 ,"$88,337 ",$0 
+DFGEX,DFA GLOB REAL ESTATE,GL,"$1,319 ",$926 ,$282 ,"$3,172 ","$3,445 ",$980 ,"$1,264 ","$1,271 ","$3,028 ","$15,687 ",$0 
+DFISX,DFA INTL SMALL CO I,ID,"$32,771 ","$25,426 ","$23,185 ","$11,396 ","$17,576 ","$15,638 ",$89 ,$165 ,$367 ,"$126,613 ",$0 
+DFIVX,DFA INTL VALUE I,ID,$151 ,$28 ,$12 ,"$7,212 ","$2,514 ",$705 ,"$21,151 ","$6,778 ","$1,291 ","$39,842 ",$0 
+DGS,WisdomTree Emerging Markets SmCp Div ETF,EM,"$7,355 ","$2,379 ",$836 ,"$10,635 ","$4,495 ","$2,090 ",$253 ,$6 ,$11 ,"$28,060 ",$0 
+VWILX,Vanguard International Growth Adm,ID,$0 ,$87 ,$0 ,$806 ,"$1,261 ","$4,540 ","$5,364 ","$12,521 ","$37,862 ","$62,441 ",$0 
+OZOB,GLOBAL RE STOCK IDX,GL,"1,362",956,291,"3,276","3,558","1,012","1,305","1,313","3,127","$16,202 ","16,202"
+#,,,,,,,,,,,,,
+,,Subtotal:,"$82,621 ","$62,217 ","$38,026 ","$63,894 ","$47,971 ","$34,610 ","$76,474 ","$56,521 ","$65,508 ",$0 ,"$16,202 "
+"The data and information in this spreadsheet is provided to you solely for your use and is not for distribution. The spreadsheet is provided for informational purposes only, and is not intended to provide advice, nor should it be construed as an offer to sell, a solicitation of an offer to buy or a recommendation for any security by Fidelity or any third party. Data and information shown is based on information known to Fidelity as of the date it was exported and is subject to change. It should not be used in place of your account statements or trade confirmations and is not intended for tax reporting purposes. For more information on the data included in this spreadsheet, including any limitations thereof, go to Fidelity.com and login to view your Fidelity Guided Portfolio Summary (GPS) report, including Important Information and Glossary.",,,,,,,,,,,,,
+,,,,,,,,,,,,,
+As of date: 11/11/2020,,,,,,,,,,,,,

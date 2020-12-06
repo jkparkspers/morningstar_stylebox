@@ -1,0 +1,10 @@
+ticker,name,class,sv,sb,sg,mv,mb,mg,lv,lb,lg,Unknown ,Unavailable 
+DFEOX,DFA US CORE EQ 1 I,US,"$6,055 ","$6,068 ","$4,167 ","$10,625 ","$10,776 ","$10,146 ","$27,783 ","$26,738 ","$23,516 ",$0 ,$0 
+DFEVX,DFA EMERG MKTS VAL I,EM,"$4,059 ",$862 ,$219 ,"$6,968 ","$2,095 ",$853 ,"$18,804 ","$7,270 ","$2,616 ",$0 ,$0 
+DFFVX,DFA US TARGET VAL I,US,"$24,878 ","$21,710 ","$8,564 ","$18,838 ","$8,005 ","$2,177 ",$381 ,$144 ,$0 ,$0 ,$0 
+DFISX,DFA INTL SMALL CO I,ID,"$29,827 ","$25,645 ","$22,204 ","$15,259 ","$15,661 ","$16,829 ",$38 ,$63 ,$75 ,$0 ,$0 
+DFIVX,DFA INTL VALUE I,ID,$58 ,$27 ,$4 ,"$6,052 ","$2,640 ",$399 ,"$24,951 ","$8,461 ","$1,770 ",$0 ,$0 
+#,,,,,,,,,,,,,
+,,Subtotal:,"$64,877 ","$54,312 ","$35,158 ","$57,742 ","$39,177 ","$30,404 ","$71,957 ","$42,676 ","$27,977 ",$0 ,$0 
+As of date: 11/05/2019,,,,,,,,,,,,,
+Symbol ,Description ,Account ,Small_value ,Small_blend ,Small_growth ,Medium_value ,Medium_blend ,Medium_growth ,Large_value ,Large_blend ,Large_growth ,Unknown ,Unavailable 
