@@ -7,7 +7,7 @@ def main():
     fn = "../StockStyle20201205.csv"
     # fn = "../StockStyle401k20191105.csv"
     port = csv_to_port(fn)
-    print('\nTotal Portfolio\n', "Total, $" + str(port.total()))
+    print('\nTotal Portfolio ', fn, '\n', "Total, $" + str(port.total()))
     disp_a_port(port)
     port_to_csv(port, "Total, $" + str(port.total()), '../total.csv')
     tot_port = port.total()
